@@ -1,0 +1,107 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: auto;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header{
+    position: relative;
+    width: 100%;
+}
+
+div.inline{
+    height: 50px;
+    padding: 20px;
+    background-color: #FF93BC   ;
+    color: black;
+    display: flex;
+    align-items:center;
+}
+
+div.buy{
+    margin: 25px;
+    margin-left: auto;
+}
+
+a.buycon{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+a.buycon:hover{
+    transition: 0.3s;
+    background-color: lemonchiffon;
+}
+
+img.buycon{
+    width: 20px;
+    height: auto;
+}
+
+img.logo{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+a.logo{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items:center;
+}
+
+a.flowerlink{
+    color: black;
+}
+
+a.flowerlink:hover{
+    color: gray;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #FF547E;
+}
+
+.tab button {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: lemonchiffon;
+}
+
+.tab button.active {
+  background-color: lemonchiffon;
+}
+
+.tabcontent {
+  background-color: LemonChiffon;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
