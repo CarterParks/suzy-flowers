@@ -4,6 +4,8 @@ body, html{
     height: 100%;
     width: auto;
     font-family: "Times New Roman", Times, serif;
+    background-image: url("tile2.png");
+    background-repeat: repeat;
 }
 
 header{
@@ -14,7 +16,8 @@ header{
 div.inline{
     height: 50px;
     padding: 20px;
-    background-color: #FF93BC   ;
+    background-image: url("tile.png");
+    background-repeat: repeat-x;
     color: black;
     display: flex;
     align-items:center;
@@ -69,12 +72,12 @@ a.flowerlink{
 }
 
 a.flowerlink:hover{
-    color: gray;
+    color: #89306F;
 }
 
 .tab {
   overflow: hidden;
-  background-color: #FF547E;
+  background-color: #9C388A;
 }
 
 .tab button {
@@ -102,6 +105,43 @@ a.flowerlink:hover{
   background-color: LemonChiffon;
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+}
+
+#show{
+  height:200px;
+  width:100%;
+  margin:0 auto;
+  border-top: solid LemonChiffon 3px;
+  border-bottom: solid LemonChiffon 3px;
+  background: black;
+}
+
+img.slide{
+    position:absolute;
+    object-fit: cover;
+    height:200px;
+    width:100%;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#suzy{
+    display: block;
+    width: 800px;
+    border: solid LemonChiffon 3px;
+    margin-right: 20px;
+}
+
+footer{
+padding: 10px;
+padding-left: 20px;
+margin: 0px;
+margin-top: 40px;
+background: #222;
+color: lightgray;
+text-align: center;
+font-size: small;
 }
