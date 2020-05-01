@@ -1,9 +1,19 @@
+@font-face {
+  font-family: "Comfortaa-Regular";
+
+  src: url("Comfortaa-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("Comfortaa-Regular.woff") format("woff"), /* Modern Browsers */
+    url("Comfortaa-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, html{
     padding: 0px;
     margin: 0px;
     height: 100%;
     width: auto;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Comfortaa-Regular", sans;
     background-image: url("tile2.png");
     background-repeat: repeat;
 }
@@ -81,7 +91,6 @@ a.flowerlink:hover{
 }
 
 .tab button {
-  font-family: "Times New Roman", Times, serif;
   color: black;
   background-color: inherit;
   float: left;
